@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="jpg/png" href="cat-smirk.png">
+</head>
+<body>
+    <div id="login-section" class="section active">
+        <div class="container">
+            <h1> Happy Birthday My Baby!!!</h1>
+            <p>Hehe Enter a keyword for you to proceed</p>
+            <input type="password" id="password" placeholder="Password">
+            <button id="login-btn">Login</button>
+            <p>Hint: My nickname</p>
+            <div class="sparkles"></div>
+            <div class="floating-hearts"></div>
+        </div>
+    </div>
+    <div id="menu-section" class="section">
+        <div class="container">
+            <h1>🎂 Choose Your Surprise! 🎂</h1>
+            <div class="menu-items">
+                <div class="menu-item" data-target="letter-section">📜 Letter</div>
+                <div class="menu-item" data-target="gallery-section">🖼️ Gallery</div>
+                <div class="menu-item" data-target="music-section">🎵 Music Player</div>
+            </div>
+            <div class="sparkles"></div>
+            <div class="floating-hearts"></div>
+        </div>
+    </div>
+    <div id="letter-section" class="section">
+        <div class="container">
+            <button class="back-btn" data-target="menu-section">← Back to Menu</button>
+            <h1>Dear [Name],</h1>
+            <p>Happy Birthday! Wishing you a day filled with joy, laughter, and all your favorite things. You are amazing, and I'm so grateful to have you in my life. May this year bring you endless happiness and success!</p>
+            <p>With love, [Your Name]</p>
+            <div class="sparkles"></div>
+            <div class="floating-hearts"></div>
+        </div>
+    </div>
+    <div id="gallery-section" class="section">
+        <div class="container">
+            <button class="back-btn" data-target="menu-section">← Back to Menu</button>
+            <h1>My Beautiful Baby <3 </h1>
+            <div class="gallery-grid">
+                <img src="Alexa-photo1.jpg" alt="Memory 1" class="gallery-item">
+                <img src="Alexa-Photo2.jpg" alt="Memory 2" class="gallery-item">
+                <img src="Alexa-photo3.jpg" alt="Memory 3" class="gallery-item">
+                <img src="Alexa-photo4.jpeg" alt="Memory 4" class="gallery-item">
+                <img src="Alexa-photo5.jpeg" alt="Memory 5" class="gallery-item">
+                <img src="Alexa-photo6.jpg" alt="Memory 6" class="gallery-item">
+            </div>
+            <div class="sparkles"></div>
+            <div class="floating-hearts"></div>
+        </div>
+    </div>
+    <div id="music-section" class="section">
+        <div class="container">
+            <button class="back-btn" data-target="menu-section">← Back to Menu</button>
+            <h1>"Iris"</h1>
+            <img src="Iris-picture.png">
+            <audio id="audio-player" controls>
+                <source src="Iris-music.mp3" type="audio/mpeg">
+            </audio>
+            <div class="sparkles"></div>
+            <div class="floating-hearts"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
